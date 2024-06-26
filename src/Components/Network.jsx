@@ -4,7 +4,7 @@ import Arrow from "../../public/Images/arrow.svg";
 const Network = () => {
   return (
     <div className="pt-5 pb-9 px-5">
-      <div className="max-w-[1400px] mx-auto flex flex-col items-center flex-1">
+      <div className="max-w-[1200px] mx-auto flex flex-col items-center flex-1">
         <h1 className="text-center pb-8 md:pb-14 lg:text-[56px] text-2xl md:text-5xl md:px-10 text-[#212121] font-semibold max-w-[898px]">
           Network of builders helping startup scale
         </h1>

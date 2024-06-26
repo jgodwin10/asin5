@@ -3,8 +3,8 @@ import Logo from "../../public/Images/Logo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#F9F9F9] md:relative sticky top-0 z-[9999] w-full md:w-auto md:h-[98px] h-[75px] flex items-center">
-      <div className="max-w-[1400px] mx-auto flex justify-between items-center flex-1 px-6">
+    <div className="bg-[#F9F9F9] md:relative sticky top-0 z-[9999] w-full md:w-auto md:h-[98px] px-5 h-[75px] flex items-center">
+      <div className="max-w-[1200px] mx-auto flex justify-between items-center flex-1">
         <img src={Logo} className="md:w-auto w-[80px]" alt="" />
         <div className="justify-start hidden lg:flex gap-4 pl-8 text-[16px] md:text-[18px] text-[#212121] font-medium items-center flex-1">
           <p>About</p>

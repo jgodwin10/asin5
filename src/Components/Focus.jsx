@@ -3,7 +3,7 @@ import React from "react";
 const Focus = () => {
   return (
     <div className="mt-10 pb-16 px-5">
-      <div className="max-w-[1400px] space-y-16 mx-auto">
+      <div className="max-w-[1200px] space-y-16 mx-auto">
         <div className="max-w-[628px] mx-auto space-y-5">
           <h2 className="text-[#212121] text-center font-semibold lg:text-[56px] text-2xl md:text-5xl">
             Our Area of Focus
