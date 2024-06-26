@@ -16,23 +16,23 @@ const Focus = () => {
         </div>
 
         <div className="lg:flex lg:justify-center grid md:grid-cols-3 sm:grid-cols-2">
-          <div className="bg-[#303030] md:p-[20px] p-[10px] h-[90px] font-[Matter] md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
+          <div className="bg-[#303030] md:p-[20px] p-[10px] h-[100px] font-[matter]  md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
             <p>01</p>
             <p>Business Support & Incubation</p>
           </div>
-          <div className="bg-[#F47733] md:p-[20px] p-[10px] h-[90px] font-[Matter] md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
+          <div className="bg-[#F47733] md:p-[20px] p-[10px] h-[100px] font-[matter]  md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
             <p>02</p>
             <p>On-Demand & As-A-Service</p>
           </div>
-          <div className="bg-[#FF78BF] md:p-[20px] p-[10px] h-[90px] font-[Matter] md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
+          <div className="bg-[#FF78BF] md:p-[20px] p-[10px] h-[100px] font-[matter]  md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
             <p>03</p>
             <p>Marketplace & Crowdsourcing</p>
           </div>
-          <div className="bg-[#20888F] md:p-[20px] p-[10px] h-[90px] font-[Matter]  md:text-[20px] text-[14px] md:col-span-2 text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
+          <div className="bg-[#20888F] md:p-[20px] p-[10px] h-[100px] font-[matter]   md:text-[20px] text-[14px] md:col-span-2 text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
             <p>04</p>
             <p>Aggregation & Shared Economy</p>
           </div>
-          <div className="bg-[#FF78BF] md:p-[20px] p-[10px] h-[90px] font-[Matter] md:row-start-2 md:col-auto sm:col-span-2 md:col-start-1 md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
+          <div className="bg-[#FF78BF] md:p-[20px] p-[10px] h-[100px] font-[matter]  md:row-start-2 md:col-auto sm:col-span-2 md:col-start-1 md:text-[20px] text-[14px] text-white flex justify-between flex-col w-full lg:w-[240px]  md:h-[160px]">
             <p>05</p>
             <p>Decentralized Economy & Digital Assets</p>
           </div>
