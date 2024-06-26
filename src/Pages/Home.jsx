@@ -5,6 +5,9 @@ import Network from "../Components/Network";
 import Focus from "../Components/Focus";
 import Services from "../Components/Services";
 import Concept from "../Components/Concept";
+import CoFound from "../Components/CoFound";
+import Equity from "../Components/Equity";
+import Blog from "../Components/Blog";
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
       <Focus />
       <Concept />
       <Services />
+      <CoFound />
+      <Equity />
+      <Blog />
     </div>
   );
 };
