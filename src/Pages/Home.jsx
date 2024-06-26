@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../Components/Hero";
 import Quote from "../Components/Quote";
 import Network from "../Components/Network";
+import Focus from "../Components/Focus";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Quote />
       <Network />
+      <Focus />
     </div>
   );
 };
