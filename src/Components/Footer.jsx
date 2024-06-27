@@ -18,13 +18,13 @@ const Footer = () => {
               Portfolio company offerings - straight into your inbox.
             </p>
           </div>
-          <div className="flex items-center border-[1px] border-[#676767] rounded-[25px] w-full sm:max-w-[468px] justify-between h-[50px]">
+          <div className="flex items-center border-[1px] border-[#676767] rounded-[25px] max-w-[468px] justify-between h-[50px]">
             <input
               className="bg-transparent placeholder:text-[#BABABA] text-[#BABABA] font-semibold flex-1 outline-none py-2 px-4"
               type="text"
               placeholder="Enter your email address"
             />
-            <button className="bg-white text-[#212121] min-w-[120px] md:w-[150px] h-[50px] rounded-3xl font-semibold">
+            <button className="bg-white text-[#212121] w-[180px] md:w-[150px] h-[50px] rounded-3xl font-semibold">
               Subscribe
             </button>
           </div>
