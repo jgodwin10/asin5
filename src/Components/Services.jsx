@@ -62,7 +62,7 @@ const Services = () => {
           <h3 className="md:text-[32px] text-[18px] font-semibold">
             Case Study
           </h3>
-          <p className="md:text-[17px] text-[#4E4E4E]">
+          <p className="md:text-[17px] text-[14px] text-[#4E4E4E]">
             See what Service Incubators get, the maths behind Service Equity
             (SEEQ) and what the value of your share equity can be over time
           </p>

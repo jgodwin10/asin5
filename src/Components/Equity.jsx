@@ -1,5 +1,9 @@
 import React from "react";
 import Arrow from "../../public/Images/arrow.svg";
+import Skim from "../../public/Images/skim.jpeg";
+import Kre from "../../public/Images/kre.png";
+import Krow from "../../public/Images/krow.png";
+import Wet from "../../public/Images/wet.png";
 
 const Equity = () => {
   return (
@@ -17,7 +21,11 @@ const Equity = () => {
         <div className="lg:overflow-auto channel overflow-x-scroll">
           <div className="grid grid-cols-4 w-[1260px]   mx-auto gap-4">
             <div className="max-w-[278px] text-[#212121] bg-white flex flex-col gap-[24px] p-[20px] rounded-[12px]">
-              <img src="" alt="" />
+              <img
+                src={Skim}
+                className="h-[64px] object-contain w-[118px]"
+                alt=""
+              />
               <p className="text-[14px]">
                 This company is a SAAS Startup that builds AI copy generator...
               </p>
@@ -61,7 +69,11 @@ const Equity = () => {
               </button>
             </div>
             <div className="max-w-[278px] text-[#212121] bg-white flex flex-col gap-[24px] p-[20px] rounded-[12px]">
-              <img src="" alt="" />
+              <img
+                src={Kre}
+                className="h-[64px] object-contain w-[118px]"
+                alt=""
+              />
               <p className="text-[14px]">
                 This company is a SAAS Startup that builds AI copy generator...
               </p>
@@ -105,7 +117,11 @@ const Equity = () => {
               </button>
             </div>
             <div className="max-w-[278px] text-[#212121] bg-white flex flex-col gap-[24px] p-[20px] rounded-[12px]">
-              <img src="" alt="" />
+              <img
+                src={Krow}
+                className="h-[64px] object-contain w-[118px]"
+                alt=""
+              />
               <p className="text-[14px]">
                 This company is a SAAS Startup that builds AI copy generator...
               </p>
@@ -149,7 +165,11 @@ const Equity = () => {
               </button>
             </div>
             <div className="max-w-[278px] text-[#212121] bg-white flex flex-col gap-[24px] p-[20px] rounded-[12px]">
-              <img src="" alt="" />
+              <img
+                src={Wet}
+                className="h-[64px] object-contain w-[118px]"
+                alt=""
+              />
               <p className="text-[14px]">
                 This company is a SAAS Startup that builds AI copy generator...
               </p>
@@ -196,7 +216,7 @@ const Equity = () => {
         </div>
         <div className="flex justify-center">
           <p className="md:text-[17px] text-[15px] cursor-pointer font-semibold flex items-center gap-2 underline underline-offset-2">
-            Build your dream <img src={Arrow} alt="" />
+            See More Equity Jobs <img src={Arrow} alt="" />
           </p>
         </div>
       </div>

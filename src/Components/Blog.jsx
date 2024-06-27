@@ -1,6 +1,10 @@
 import React from "react";
 import Preview from "../../public/Images/video.svg";
 import Video from "../../public/Images/Video.jpeg";
+import Second from "../../public/Images/second.jpeg";
+import Book from "../../public/Images/book.jpeg";
+import Sec from "../../public/Images/sec.jpeg";
+import SecBook from "../../public/Images/secBook.jpeg";
 
 const Blog = () => {
   return (
@@ -23,7 +27,7 @@ const Blog = () => {
                   <img className="" src={Preview} alt="" />
                 </div>
               </div>
-              <div className="flex  xl:gap-14 lg:gap-4 justify-between">
+              <div className="flex  xl:gap-14 gap-2 lg:gap-4 justify-between">
                 <div className="space-y-2">
                   <h3 className="text-[#212121] text-[14px] font-semibold">
                     Top Ten Most Powerful Startup
@@ -35,14 +39,14 @@ const Blog = () => {
                 </div>
                 <img
                   className="w-[85px] h-[79px] rounded-[8px] object-cover"
-                  src={Video}
+                  src={Sec}
                   alt=""
                 />
               </div>
             </div>
             <div className="flex flex-col gap-[35px]">
               <div className="relative before:contents-[''] before:absolute before:w-full before:h-full before:bg-gradient-to-b before:from-[#CECECE00] before:to-[#212121CC]">
-                <img src={Video} alt="" />
+                <img src={Second} alt="" />
                 <div className="text-white absolute bottom-4 left-4 text-[18px] font-semibold">
                   <p>Top Ten Most Powerful Startup</p>
                 </div>
@@ -50,7 +54,7 @@ const Blog = () => {
                   <img className="" src={Preview} alt="" />
                 </div>
               </div>
-              <div className="flex xl:gap-14 lg:gap-4 justify-between">
+              <div className="flex xl:gap-14 gap-2 lg:gap-4 justify-between">
                 <div className="space-y-2">
                   <h3 className="text-[#212121] text-[14px] font-semibold">
                     Top Ten Most Powerful Startup
@@ -62,14 +66,14 @@ const Blog = () => {
                 </div>
                 <img
                   className="w-[85px] h-[79px] rounded-[8px] object-cover"
-                  src={Video}
+                  src={Book}
                   alt=""
                 />
               </div>
             </div>
             <div className="flex flex-col gap-[35px]">
               <div className="relative before:contents-[''] before:absolute before:w-full before:h-full before:bg-gradient-to-b before:from-[#CECECE00] before:to-[#212121CC]">
-                <img src={Video} alt="" />
+                <img src={Second} alt="" />
                 <div className="text-white absolute bottom-4 left-4 text-[18px] font-semibold">
                   <p>Top Ten Most Powerful Startup</p>
                 </div>
@@ -77,7 +81,7 @@ const Blog = () => {
                   <img className="" src={Preview} alt="" />
                 </div>
               </div>
-              <div className="flex  xl:gap-14 lg:gap-4 justify-between">
+              <div className="flex  xl:gap-14 gap-2 lg:gap-4 justify-between">
                 <div className="space-y-2">
                   <h3 className="text-[#212121] text-[14px] font-semibold">
                     Top Ten Most Powerful Startup
@@ -89,7 +93,7 @@ const Blog = () => {
                 </div>
                 <img
                   className="w-[85px] h-[79px] rounded-[8px] object-cover"
-                  src={Video}
+                  src={SecBook}
                   alt=""
                 />
               </div>
