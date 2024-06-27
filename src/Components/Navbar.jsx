@@ -30,11 +30,11 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-0 ${
+        className={`fixed top-0 left-0 ${
           !open ? "-translate-x-[120vw]" : "translate-x-0"
         }  duration-700 lg:hidden  w-full bg-white h-screen`}
       >
-        <div className="flex justify-center flex-col gap-16 items-center h-full relative">
+        <div className="flex justify-center flex-col gap-16 items-center w-full h-full relative">
           <div className="text-[25px] text-center space-y-4">
             <p>About</p>
             <p>SIP</p>
@@ -54,7 +54,7 @@ const Navbar = () => {
           </div>
           <LiaTimesSolid
             onClick={() => setOpen(!open)}
-            className={`size-9  absolute lg:hidden top-7 duration-500 right-10  ${
+            className={`size-9  absolute lg:hidden top-7 duration-500 right-7  ${
               open && "rotate-[360deg]"
             }`}
           />
