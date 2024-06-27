@@ -18,13 +18,13 @@ const Footer = () => {
               Portfolio company offerings - straight into your inbox.
             </p>
           </div>
-          <div className="flex items-center border-[1px] border-[#676767] rounded-[25px] max-w-[468px] justify-between h-[50px]">
+          <div className="flex items-center border-[1px] border-[#676767] rounded-[25px] w-full sm:max-w-[468px] justify-between h-[50px]">
             <input
               className="bg-transparent placeholder:text-[#BABABA] text-[#BABABA] font-semibold flex-1 outline-none py-2 px-4"
               type="text"
               placeholder="Enter your email address"
             />
-            <button className="bg-white text-[#212121] w-[170px] md:w-[150px] h-[50px] rounded-3xl font-semibold">
+            <button className="bg-white text-[#212121] min-w-[120px] md:w-[150px] h-[50px] rounded-3xl font-semibold">
               Subscribe
             </button>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
         <div className=" max-w-[1240px] mx-auto grid grid-cols-2 md:pt-10 lg:pt-0 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
           <div className="space-y-[15px] lg:py-16">
             <img src={Logo} className="md:w-auto w-[80px]" alt="" />
-            <p className="text-white text-[14px] leading-[27px]">
+            <p className="text-white text-[12px] md:text-[14px] leading-[20px] md:leading-[27px]">
               SINC Partners is a service incubation company connecting experts
               in product development and growth marketing willing to offer their
               services to amazing startups in exchange for minute equity
